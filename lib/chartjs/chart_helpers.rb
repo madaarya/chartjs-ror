@@ -4,7 +4,7 @@ require 'bigdecimal'
 module Chartjs
   module ChartHelpers
 
-    CHART_TYPES = %w[ bar bubble doughnut horizontal_bar line pie polar_area radar scatter ]
+    CHART_TYPES = %w[ bar bubble doughnut horizontal_bar line pie polar_area radar scatter outlabeled_pie ]
 
     module Explicit
       CHART_TYPES.each do |type|
